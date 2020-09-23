@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh '''
                    aws --version
+                   docker build -t new .
                    '''
             }
         }
