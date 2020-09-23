@@ -3,12 +3,14 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                // 
+                sh "aws --version"
             }
         }
         stage('Test') { 
             steps {
-                // 
+                sh ' ' '
+                   echo " hello world "
+                   ' ' '
             }
         }
         stage('Deploy') { 
