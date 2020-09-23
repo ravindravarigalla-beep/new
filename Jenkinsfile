@@ -8,9 +8,9 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh ' ' '
+                sh '''
                    echo " hello world "
-                   ' ' '
+                   '''
             }
         }
         stage('Deploy') { 
